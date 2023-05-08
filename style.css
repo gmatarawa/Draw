@@ -2,3 +2,7 @@ html {
   height: 100%;
   width: 100%;
 }
+body {
+  /*background-color: cornflowerblue;*/
+  background-image: radial-gradient(/*square,*/  cornflowerblue, royalblue, blue, #c91bc9, indigo, red, orange, yellow, forestgreen, green, lime);
+}
