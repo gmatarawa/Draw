@@ -6,10 +6,24 @@ body {
   /*background-color: cornflowerblue;*/
   background-image: radial-gradient(/*square,*/  cornflowerblue, royalblue, blue, #c91bc9, indigo, red, orange, yellow, forestgreen, green, lime);
 }
+
+@keyframes text-animate {
+  0% {color: red;}
+  17% {color: orange;}
+  33% {color: #fdd802;}
+  50% {color: green;}
+  67% {color: lightblue;}
+  84% {color: blue;}
+  100% {color: purple;}
+}
+
 h1 {
   text-align: center;
   color: white;
   font-family: 'Wix Madefor Display', sans-serif;
+  animation-name: text-animate;
+  animation-duration: 4.5s;
+  animation-iteration-count: infinite;
 }
 .text {
   margin: 10px;
