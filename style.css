@@ -34,6 +34,10 @@ h1 {
   border-radius: 10px;
 }
 
+p {
+  font-family: 'Gloria Hallelujah', cursive;
+  color:white;
+}
 
 ul {
   list-style-type: none;
