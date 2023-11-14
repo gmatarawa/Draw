@@ -81,6 +81,7 @@ li a, .dropbtn {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  transition: background-color .25s ease-in-out, color .25s ease-in-out;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
@@ -91,6 +92,7 @@ li a:hover, .dropdown:hover .dropbtn {
 li a.active {
   background-color: #001ac8;
   color: white;
+  transition: background-color .25s ease-in-out;
 }
 
 li a.active:hover {
@@ -139,11 +141,12 @@ img {
 
 #projects img {
   width: 300px;
-  height: 300px;
+  /*height: 300px;*/
   border-radius: 10px;
   margin-left: 20%;
   margin-bottom: 20px;
   display: inline-block;
+  transition: box-shadow 0.5s;
 }
 
 .imgLink:hover {
@@ -188,7 +191,7 @@ img {
 
 #projects img {
   width: 100px;
-  height: 100px;
+  /*height: 100px;*/
   border-radius: 10px;
   margin-left: 10%;
   margin-bottom: 20px;
