@@ -1,6 +1,5 @@
 /* Background */
 body {
-  /*background-image: radial-gradient( cornflowerblue, royalblue, blue, #c91bc9, indigo, red, orange, yellow, forestgreen, green, lime);*/
   background-image: linear-gradient( cornflowerblue, royalblue, blue, #c91bc9, indigo, darkviolet, blueviolet, blue, royalblue, cornflowerblue);
   margin: 0;
 }
@@ -29,8 +28,12 @@ h1 {
 h2 {
   text-align: center;
   color: white;
-  font-family: 'Wix Madefor Display', sans-serif;
-  font-size: 30px;
+  font-family: '', sans-serif;
+  font-size: 50px;
+}
+
+a {
+  transition: color .15s ease-in-out;
 }
 
 a:hover {
@@ -141,8 +144,8 @@ img {
 
 #projects img {
   width: 300px;
-  /*height: 300px;*/
-  border-radius: 10px;
+  height: 300px;
+  border-radius: 100%;
   margin-left: 20%;
   margin-bottom: 20px;
   display: inline-block;
@@ -150,9 +153,15 @@ img {
 }
 
 .imgLink:hover {
-  box-shadow: 10px 10px #8080ff;
+  box-shadow: 6px 6px #8080ff;
 }
 
+@font-face {
+  font-family: "Good Times";
+  src:
+    local("Good Times"),
+    url("https://replit.com/@GeorgeC12/Draw#good%20times%20rg.otf")
+}
 
 /*responsive layout*/
 
@@ -162,7 +171,7 @@ img {
   }
 
   h2 {
-    font-size: 20px;
+    font-size: 25px;
   }
 
   header {
@@ -186,18 +195,21 @@ img {
   }
   
   body {
-    background-image: linear-gradient(to bottom right, blue, royalblue 8%, royalblue 10%, cornflowerblue 20%, cornflowerblue 30%, royalblue 40%, blue 45%, royalblue 60%, cornflowerblue 70%, cornflowerblue 80%, royalblue 90%, blue 95%);
+    background-color: royalblue;
+    /*background-image: linear-gradient(to bottom right, blue, royalblue 8%, royalblue 10%, cornflowerblue 20%, cornflowerblue 30%, royalblue 40%, blue 45%, royalblue 60%, cornflowerblue 70%, cornflowerblue 80%, royalblue 90%, blue 95%);*/
+    background-image: none;
 }
 
 #projects img {
   width: 100px;
-  /*height: 100px;*/
-  border-radius: 10px;
-  margin-left: 10%;
+  height: 100px;
+  border-radius: 100px;
+  margin: auto;
   margin-bottom: 20px;
-  display: inline-block;
+  display: block;
+  text-align: center;
 }
 
 .imgLink:hover {
-  box-shadow: 5px 5px #8080ff;
+  box-shadow: 3px 3px #8080ff;
 }
